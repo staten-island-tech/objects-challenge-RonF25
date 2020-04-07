@@ -42,7 +42,10 @@ Christian.dob = 2003;*/
     add: ///function x + y,
     subtract: /// function x - y
 } */
-const presidents = [
+
+
+
+/* const presidents = [
     { name: "Donald Trump", terms: 1, party: "R" },
     { name: "Barack Obama", terms: 2, party: "D" },
     { name: "George W. Bush", terms: 2, party: "R" },
@@ -56,7 +59,7 @@ const presidents = [
     { name: "Lyndon Johnson", terms: 2, party: "D" },
     { name: "Dwight Eisenhower", terms: 2, party: "R" },
     
-  ];
+  ]; */
    
   //Challenge Questions
   //1) Filter all presidents, leaving only the Democratic ones
@@ -87,3 +90,45 @@ const presidents = [
 } else {
     alert("LBJ was one and done");
 } */
+
+
+body {
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+    text-align: center;
+  }
+  .bc {
+    height: 50px;
+    width: 500px;
+  }
+  .test {
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      right bottom,
+      from(rgba(69, 162, 158, 0.5)),
+      to(rgba(102, 252, 241, 0.5))
+    );
+    background-clip: text;
+    height: 30vh;
+  }
+  .icon-test {
+    font-size: 10rem;
+    color: transparent;
+    transition: all 1s;
+  }
+  .icon-test:hover {
+    transform: rotate(720deg);
+  }
+  .Karen {
+    background-color: red;
+    font-size: 50px;
+    color: white;
+  }
+  
+  .background {
+    height: 60vh;
+    width: 95vw;
+  }
